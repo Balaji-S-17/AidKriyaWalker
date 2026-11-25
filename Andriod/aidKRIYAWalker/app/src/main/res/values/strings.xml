@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">aidKRIYAWalker</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- Your unique client ID for Google Sign-In -->
+    <string name="default_web_client_id" translatable="false">975449964011-fi28ifmi93qd5ou0hvbt763mceh2nf28.apps.googleusercontent.com</string>
+
+    <!-- Profile Roles Array for Spinner -->
+    <string-array name="profile_roles">
+        <item>Walker</item>
+        <item>Wanderer</item>
+    </string-array>
+</resources>

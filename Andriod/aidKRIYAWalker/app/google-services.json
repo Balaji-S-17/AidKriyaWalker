@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "975449964011",
+    "project_id": "my-aidkriyawalker-app",
+    "storage_bucket": "my-aidkriyawalker-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975449964011:android:9884b6cad61ff4a0e52dae",
+        "android_client_info": {
+          "package_name": "com.example.aidkriyawalker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975449964011-6ev0e5vja0tfeb999hdr1bet10u2u42c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aidkriyawalker",
+            "certificate_hash": "169f06342776d21ac08495c05545b478eaa8124b"
+          }
+        },
+        {
+          "client_id": "975449964011-jkbbsbhnrj2gdpbdp45lufja8as9up5k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aidkriyawalker",
+            "certificate_hash": "b99c580fa784f4309094efdc139ebaf95769d872"
+          }
+        },
+        {
+          "client_id": "975449964011-fi28ifmi93qd5ou0hvbt763mceh2nf28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCgdwbdOEADHa8k8vI43TPQdVgLk0KZZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975449964011-fi28ifmi93qd5ou0hvbt763mceh2nf28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

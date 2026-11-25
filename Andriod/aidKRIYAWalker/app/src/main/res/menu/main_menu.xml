@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_profile"
+        android:title="Edit Profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_request_walk"
+        android:title="Request a Walk"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_view_requests"
+        android:title="View Requests"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,42 @@
+[versions]
+activity = "1.9.0"
+androidApplication = "8.4.1"
+appcompat = "1.7.0"
+constraintlayout = "2.1.4"
+espressoCore = "3.6.0"
+extJunit = "1.2.0"
+firebaseBom = "33.1.1"
+googleGmsGoogleServices = "4.4.2"
+junit = "4.13.2"
+material = "1.12.0"
+navigationFragment = "2.7.7"
+navigationUi = "2.7.7"
+playServicesAuth = "21.2.0"
+playServicesMaps = "18.2.0"
+secretsGradlePlugin = "2.0.1"
+playServicesLocation = "21.3.0" # <-- ADDED
+
+[libraries]
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "extJunit" }
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
+play-services-auth = { group = "com.google.android.gms", name = "play-services-auth", version.ref = "playServicesAuth" }
+play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" } # <-- ADDED
+
+# Add definitions for firestore and auth, which will be managed by the BoM
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "androidApplication" }
+google-android-libraries-mapsplatform-secrets-gradle-plugin = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "secretsGradlePlugin" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }
